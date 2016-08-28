@@ -251,7 +251,7 @@ function filter(opts) {
  	 * @public api
 	 */
 	return {
-		init: function(request, response, next) {
+		start: function(request, response, next) {
 			return filter(request, response, next);
 		}
 	}
