@@ -1,5 +1,5 @@
 {
-  "name": "filter",
+  "name": "httpfilter",
   "version": "0.1.0",
   "description": "To filter http requests before trying to process it at all",
   "main": "index.js",
@@ -12,5 +12,13 @@
     "requests"
   ],
   "author": "Subomi Oluwalana",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subomi/httpfilter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Subomi/httpfilter/issues"
+  },
+  "homepage": "https://github.com/Subomi/httpfilter#readme"
 }
