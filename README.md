@@ -5,7 +5,7 @@ A filter middleware to filter http requests, and block some unwanted requests ty
 ## Installation 
 
 ```sh
-$ npm install filter
+$ npm install httpfilter
 ```
 
 
@@ -15,7 +15,7 @@ There are two major ways to use the filter API.
 ### Configure Model
 ```js
 
-var filter = require('filter');
+var filter = require('httpfilter');
 
 filter(serverOptions)
 ```
@@ -110,6 +110,7 @@ var serverOptions = {};
 app.use(function(req, res, next) {
 	filter(req, res, serverOptions, next);
 })
+```
 
 
 ## Tests
